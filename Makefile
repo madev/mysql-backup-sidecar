@@ -22,6 +22,7 @@ rebuild: rebuild-mysql rebuild-mariadb ## build docker image without cache
 .PHONY: build-mysql
 build-mysql: ## build docker image
 	docker build -t "$(IMAGE_NAME):$(VERSION_TAG)-mysql-8.0" -f mysql/8.0/Dockerfile .
+	docker build -t "$(IMAGE_NAME):$(VERSION_TAG)-mysql-5.6" -f mysql/5.6/Dockerfile .
 
 .PHONY: build-mariadb
 build-mariadb: ## build docker image

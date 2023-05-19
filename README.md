@@ -78,3 +78,7 @@ Thanks to the following resources which helped and inspired:
 - https://www.percona.com/doc/percona-xtrabackup/2.4/index.html
 - https://github.com/khoanguyen96/dockerfiles/blob/master/percona-xtrabackup/Dockerfile
 - https://www.digitalocean.com/community/tutorials/how-to-configure-mysql-backups-with-percona-xtrabackup-on-ubuntu-16-04
+
+## Update
+We chose to fork this project and extend it to be compatible with older versions of mysql(>5.5.6).
+In order to do so we created another dockerfile which has different depedencies.
